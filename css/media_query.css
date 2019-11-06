@@ -1,0 +1,28 @@
+/* Exmaple of breakpoints for media query */
+
+
+/* up to 480 => phones portrait */
+
+@media all and (max-width: 480px) {
+    body {
+        background: lawngreen;
+    }
+}
+
+
+/* 480 - 768 => phones landscape and tablets landscape */
+
+@media all and (min-width: 480px) and (max-width: 1024px) {
+    body {
+        background: lightsalmon;
+    }
+}
+
+
+/* 1024 and up => desktopand more */
+
+@media all and (min-width: 1024px) {
+    body {
+        background: grey;
+    }
+}
