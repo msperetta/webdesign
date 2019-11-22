@@ -1,0 +1,19 @@
+ul {
+    /* taking care of deafult margins and syle that are not needed */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    /* disaplying items horizontally */
+    display: inline;
+    /* trick! ... to remove spaces between items */
+    margin-left: -4px;
+    background-color: darkcyan;
+}
+
+li:hover {
+    /* hover effect */
+    background-color: coral;
+}
